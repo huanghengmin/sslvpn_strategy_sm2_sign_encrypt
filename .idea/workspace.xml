@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ROOT" />
+    </artifacts-to-build>
+  </component>
+  <component name="CCaseConfig">
+    <option name="checkoutReserved" value="false" />
+    <option name="markExternalChangeAsUpToDate" value="true" />
+    <option name="checkInUseHijack" value="true" />
+    <option name="useUcmModel" value="true" />
+    <option name="synchOutside" value="false" />
+    <option name="isHistoryResticted" value="true" />
+    <option name="useIdenticalSwitch" value="true" />
+    <option name="synchActivitiesOnRefresh" value="true" />
+    <option name="lastScr" value="" />
+    <option name="scrTextFileName" value="" />
+    <option name="historyRevisionsNumber" value="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7886a50-f3f0-4343-ba5b-160cdb03b937" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bcprov_jdk16_146.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509UserConfigUtils.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ROOT.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ROOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/sslvpn_strategy_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sslvpn_strategy_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/FileUtil.java" afterPath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/FileUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/StringContext.java" afterPath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/StringContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/VPNConfigUtil.java" afterPath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/VPNConfigUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckAction.java" afterPath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/EncryptUtils.java" afterPath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/EncryptUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509Context.java" afterPath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509Context.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509Entity.java" afterPath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509Entity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509ShellUtils.java" afterPath="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509ShellUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/version/version.properties" afterPath="$PROJECT_DIR$/src/version/version.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sslvpn_strategy.iml" afterPath="$PROJECT_DIR$/sslvpn_strategy.iml" />
+    </list>
+    <ignored path="pubwar.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/openvpn$TcpClient.ic" NAME="TcpClient Coverage Results" MODIFIED="1390212889578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>monitor.tcp.mina.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/bsms$HttpsProcess.ic" NAME="HttpsProcess Coverage Results" MODIFIED="1369135545046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.hzih.bsms.web.action.socat.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/java/com/hzih/vpn/web/action/vpn/server/ClientControl.java" line="85" class="com.hzih.vpn.web.action.vpn.server.ClientControl" package="com.hzih.vpn.web.action.vpn.server">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/com/hzih/vpn/web/action/vpn/enable/ControlAction.java" line="128" class="com.hzih.vpn.web.action.vpn.enable.ControlAction" package="com.hzih.vpn.web.action.vpn.enable">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/com/hzih/vpn/servlet/DoTermOnLine.java" line="97" class="com.hzih.vpn.servlet.DoTermOnLine" package="com.hzih.vpn.servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/com/hzih/vpn/web/action/vpn/user_manager/GroupPrivateNetsAction.java" line="147" class="com.hzih.vpn.web.action.vpn.user_manager.GroupPrivateNetsAction" package="com.hzih.vpn.web.action.vpn.user_manager">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/com/hzih/vpn/web/action/vpn/user_manager/GroupPrivateNetsAction.java" line="190" class="com.hzih.vpn.web.action.vpn.user_manager.GroupPrivateNetsAction" package="com.hzih.vpn.web.action.vpn.user_manager">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pubwar" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/entity/SipType.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/entity/DownConfigResponse.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/utils/ByteFileUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/sign/SignUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/ClientAction.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/threeyards/DoClientThreeYards.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/md5/MD5Utils.java" />
+        <option value="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/strategy/strategy/ClientStrategyAction.java" />
+        <option value="$PROJECT_DIR$/src/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/strategy/StrategyXMLUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckCRLUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/servlet/DownLoadWindows.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/domain/xml/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/appserver/index.jsp" />
+        <option value="$PROJECT_DIR$/src/appserver/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/strategy/ClientStrategyAction.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckUploadGpsAction.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckUploadViewAction.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/upload/ClientGpsUploadAction.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/upload/ClientViewUploadAction.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/control/ControlAction.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/servlet/DownLoadAndroid.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/servlet/DownLoadWindowsX64.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/servlet/DownLoadWindowsX86.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/VersionUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/threeyards/DoTerminalThreeYards.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/UpgradeVersionAction.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/online/DoTermAll.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/online/DoTermOnLine.java" />
+        <option value="$PROJECT_DIR$/src/version/version.properties" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/test/SM2.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm2/SM3Digest.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM2Utils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/ed.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm2/SM2.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM2.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/HexUtil.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509UserConfigUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509Context.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CertificateUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509Entity.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/EncryptUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/StringContext.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/VPNConfigUtil.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509ShellUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckAction.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringFacetInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-missing-from-artifact(artifact:pubweb:appserver exploded,/WEB-INF/classes/module-output)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sslvpn_strategy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sslvpn_strategy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sslvpn_strategy_sm2_sign_encrypt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openvpn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openvpn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.175" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sslvpn_sm2_sign_encrypt" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="openvpn" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="project.propDebugger" />
+    <property name="project.structure.side.proportion" value="0.2845138" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript 1.5" value="false" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/fartec/ichange/sslvpn_strategy/src/java/com/hzih/sslvpn/web/action/sslvpn/online/DoTermOnLine.java" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="monitor.vpngetinfo" />
+      <recent name="com.hzih.pubwar.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fartec\ichange\sslvpn_strategy_sign_encrypt\src\java\com\hzih\sslvpn" />
+      <recent name="D:\fartec\ichange\sslvpn_strategy_sign_encrypt\src\java\com\hzih\sslvpn\sm2" />
+      <recent name="D:\fartec\ichange\sslvpn_strategy_sign_encrypt\src\java\com\hzih\sslvpn\web\action\sslvpn\client\check" />
+      <recent name="D:\fartec\ichange\sslvpn_strategy_sign_encrypt\src\java\com\hzih\sslvpn\domain\xml" />
+      <recent name="D:\fartec\ichange\sslvpn_strategy_sign_encrypt\src\java\com\hzih\sslvpn\web\action\sslvpn\client\strategy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hzih.sslvpn.web.action.sslvpn.encrypt.config" />
+      <recent name="com.hzih.sslvpn.domain" />
+      <recent name="com.hzih.sslvpn.web.servlet" />
+      <recent name="com.hzih.sslvpn.utils.md5" />
+      <recent name="com.hzih.sslvpn.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\fartec\ichange\sslvpn\src\appserver\js\audit" />
+      <recent name="D:\fartec\ichange\sslvpn\src\appserver\pages\audit" />
+      <recent name="D:\fartec\ichange\sslvpn\src\appserver\js\version" />
+      <recent name="D:\fartec\ichange\sslvpn\src\appserver\pages\version" />
+      <recent name="D:\fartec\ichange\commonsslvpn\src\appserver\pages\crl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat sslvpn_sign_encrypt">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sslvpn_strategy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat sslvpn_sign_encrypt" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat sslvpn_sign_encrypt" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dsslvpn.home=E:/fartec/ichange/sslvpn_sign_encrypt" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="sslvpn_strategy:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_openvpn" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4758" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sslvpn_strategy:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat sslvpn_sign_encrypt" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Documents and Settings\Administrator\Application Data\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7886a50-f3f0-4343-ba5b-160cdb03b937" name="Default" comment="" />
+      <created>1339034074908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1339034074908</updated>
+      <workItem from="1405927157060" duration="635000" />
+      <workItem from="1406525478703" duration="7602000" />
+      <workItem from="1406542268031" duration="601000" />
+      <workItem from="1408351485531" duration="640000" />
+      <workItem from="1408502649609" duration="10098000" />
+      <workItem from="1408673743015" duration="8010000" />
+      <workItem from="1408702030359" duration="32000" />
+      <workItem from="1408863884984" duration="5515000" />
+      <workItem from="1408878814218" duration="4629000" />
+      <workItem from="1408946461281" duration="670000" />
+      <workItem from="1408971846515" duration="10155000" />
+      <workItem from="1409040564265" duration="13791000" />
+      <workItem from="1409056050265" duration="147000" />
+      <workItem from="1409104001875" duration="56000" />
+      <workItem from="1409106920546" duration="27476000" />
+      <workItem from="1409220103593" duration="17020000" />
+      <workItem from="1409308812734" duration="509000" />
+      <workItem from="1409626644156" duration="1426000" />
+      <workItem from="1410225121796" duration="262000" />
+      <workItem from="1410233088937" duration="123000" />
+      <workItem from="1410749626359" duration="4161000" />
+      <workItem from="1411352216625" duration="24000" />
+      <workItem from="1411435126546" duration="19000" />
+      <workItem from="1413178430937" duration="999000" />
+      <workItem from="1413184707328" duration="666000" />
+      <workItem from="1414045271453" duration="376000" />
+      <workItem from="1414045709109" duration="1072000" />
+      <workItem from="1414067577921" duration="20000" />
+      <workItem from="1417399942526" duration="749000" />
+      <workItem from="1417401675689" duration="579000" />
+      <workItem from="1417493779681" duration="46000" />
+      <workItem from="1418186901008" duration="115000" />
+      <workItem from="1418187103542" duration="29000" />
+      <workItem from="1418202064670" duration="34000" />
+      <workItem from="1418203012092" duration="5000" />
+      <workItem from="1418266952439" duration="12407000" />
+      <workItem from="1418354206234" duration="35000" />
+      <workItem from="1418356900469" duration="332000" />
+      <workItem from="1418695535086" duration="13324000" />
+      <workItem from="1418717874694" duration="4201000" />
+      <workItem from="1418722397211" duration="93000" />
+      <workItem from="1418743593056" duration="38000" />
+      <workItem from="1418782791924" duration="5253000" />
+      <workItem from="1418791069753" duration="15947000" />
+      <workItem from="1418821750012" duration="36000" />
+      <workItem from="1418885737529" duration="8706000" />
+      <workItem from="1418904305817" duration="37000" />
+      <workItem from="1418904540237" duration="3000" />
+      <workItem from="1418968162786" duration="13956000" />
+      <workItem from="1419214080093" duration="69000" />
+      <workItem from="1419214604293" duration="1052000" />
+      <workItem from="1419222183710" duration="119000" />
+      <workItem from="1419228172796" duration="647000" />
+      <workItem from="1419229665658" duration="22000" />
+      <workItem from="1419237395768" duration="4584000" />
+      <workItem from="1419251369225" duration="338000" />
+      <workItem from="1419300307286" duration="2621000" />
+      <workItem from="1419308659607" duration="3600000" />
+      <workItem from="1419327725911" duration="10885000" />
+      <workItem from="1419386135516" duration="1210000" />
+      <workItem from="1419397211531" duration="4004000" />
+      <workItem from="1419402580453" duration="3593000" />
+      <workItem from="1419407940656" duration="26000" />
+      <workItem from="1419563670562" duration="948000" />
+      <workItem from="1419571355765" duration="4511000" />
+      <workItem from="1419678804843" duration="200000" />
+      <workItem from="1419760605578" duration="71000" />
+      <workItem from="1419777221312" duration="722000" />
+      <workItem from="1419812904468" duration="1098000" />
+      <workItem from="1419814278953" duration="3966000" />
+      <workItem from="1419832912343" duration="215000" />
+      <workItem from="1419839977734" duration="64000" />
+      <workItem from="1419919611484" duration="17000" />
+      <workItem from="1419919964390" duration="696000" />
+      <workItem from="1419924275687" duration="630000" />
+      <workItem from="1419928947187" duration="39000" />
+      <workItem from="1419933086281" duration="856000" />
+      <workItem from="1419993805984" duration="589000" />
+      <workItem from="1420032944031" duration="158000" />
+      <workItem from="1420163825703" duration="2574000" />
+      <workItem from="1420202344062" duration="2408000" />
+      <workItem from="1420350237093" duration="3811000" />
+      <workItem from="1420433563406" duration="28000" />
+      <workItem from="1420598410500" duration="512000" />
+      <workItem from="1421065851265" duration="458000" />
+      <workItem from="1421144746031" duration="585000" />
+      <workItem from="1421148671578" duration="1177000" />
+      <workItem from="1422328968781" duration="55000" />
+      <workItem from="1422871370187" duration="44000" />
+      <workItem from="1422873543515" duration="687000" />
+      <workItem from="1422928096812" duration="333000" />
+      <workItem from="1422948972359" duration="58000" />
+      <workItem from="1422951635078" duration="1391000" />
+      <workItem from="1423027049218" duration="49000" />
+      <workItem from="1425356915437" duration="3135000" />
+      <workItem from="1425448055828" duration="1509000" />
+      <workItem from="1425455682484" duration="2704000" />
+      <workItem from="1425524790531" duration="614000" />
+      <workItem from="1425540573890" duration="38000" />
+      <workItem from="1425869576953" duration="14555000" />
+      <workItem from="1425954018281" duration="11302000" />
+      <workItem from="1426038259578" duration="11947000" />
+      <workItem from="1426122978468" duration="8463000" />
+      <workItem from="1426226423734" duration="109000" />
+      <workItem from="1426306482093" duration="988000" />
+      <workItem from="1426469715890" duration="2348000" />
+      <workItem from="1426495885031" duration="2491000" />
+      <workItem from="1426564391687" duration="1145000" />
+      <workItem from="1426572630734" duration="2953000" />
+      <workItem from="1426645864625" duration="734000" />
+      <workItem from="1426660709828" duration="8573000" />
+      <workItem from="1426728654312" duration="8380000" />
+      <workItem from="1426746626812" duration="2881000" />
+      <workItem from="1426816767843" duration="3057000" />
+      <workItem from="1426839632859" duration="888000" />
+      <workItem from="1427251838359" duration="1572000" />
+      <workItem from="1427265708953" duration="734000" />
+      <workItem from="1427431363125" duration="661000" />
+      <workItem from="1427439325937" duration="1561000" />
+      <workItem from="1427691794546" duration="656000" />
+      <workItem from="1427697074381" duration="731000" />
+      <workItem from="1427705467084" duration="103000" />
+      <workItem from="1427708040797" duration="1464000" />
+      <workItem from="1427765186125" duration="23042000" />
+      <workItem from="1427791231312" duration="1940000" />
+      <workItem from="1427852552015" duration="2221000" />
+      <workItem from="1427869697281" duration="634000" />
+      <workItem from="1427936479812" duration="7037000" />
+      <workItem from="1427947740953" duration="36000" />
+      <workItem from="1427948575046" duration="1461000" />
+      <workItem from="1428124953421" duration="105000" />
+      <workItem from="1428372721750" duration="9067000" />
+      <workItem from="1428387240859" duration="6997000" />
+      <workItem from="1428455762625" duration="4825000" />
+      <workItem from="1428480950875" duration="1755000" />
+      <workItem from="1428557340216" duration="1528000" />
+      <workItem from="1428570212498" duration="1811000" />
+      <workItem from="1428627089576" duration="1985000" />
+      <workItem from="1428647520748" duration="575000" />
+      <workItem from="1428800630968" duration="615000" />
+      <workItem from="1428894511937" duration="17234000" />
+      <workItem from="1428914443156" duration="5198000" />
+      <workItem from="1428972589484" duration="33111000" />
+      <workItem from="1429058615609" duration="35367000" />
+      <workItem from="1429145196125" duration="22633000" />
+      <workItem from="1429179504671" duration="2828000" />
+      <workItem from="1429232056375" duration="5429000" />
+      <workItem from="1429242757828" duration="1054000" />
+      <workItem from="1429245448015" duration="2730000" />
+      <workItem from="1429248767265" duration="127000" />
+      <workItem from="1429248936015" duration="2489000" />
+      <workItem from="1429494442515" duration="3112000" />
+      <workItem from="1429509224921" duration="393000" />
+      <workItem from="1429516857187" duration="8922000" />
+      <workItem from="1429577686140" duration="36088000" />
+      <workItem from="1429663534531" duration="14319000" />
+      <workItem from="1429679377781" duration="17323000" />
+      <workItem from="1429750053453" duration="763000" />
+      <workItem from="1429775336874" duration="307000" />
+      <workItem from="1429777107484" duration="2825000" />
+      <workItem from="1429836488046" duration="5158000" />
+      <workItem from="1430098359812" duration="22864000" />
+      <workItem from="1430182418125" duration="16959000" />
+      <workItem from="1430269288125" duration="27410000" />
+      <workItem from="1430355631390" duration="6980000" />
+      <workItem from="1430370543350" duration="6702000" />
+      <workItem from="1430384404194" duration="4262000" />
+      <workItem from="1430701337983" duration="2192000" />
+      <workItem from="1430717292843" duration="13711000" />
+      <workItem from="1430794778125" duration="18880000" />
+      <workItem from="1430873248921" duration="16743000" />
+      <workItem from="1430908187531" duration="584000" />
+      <workItem from="1430967963593" duration="13666000" />
+      <workItem from="1431048019859" duration="1370000" />
+      <workItem from="1431070131234" duration="1628000" />
+      <workItem from="1431071835640" duration="1726000" />
+      <workItem from="1431079207968" duration="2955000" />
+      <workItem from="1431134942562" duration="5318000" />
+      <workItem from="1432617026968" duration="1855000" />
+      <workItem from="1432719371140" duration="329000" />
+      <workItem from="1432774890843" duration="6350000" />
+      <workItem from="1433123245109" duration="528000" />
+      <workItem from="1433140244218" duration="55000" />
+      <workItem from="1433991435453" duration="29000" />
+      <workItem from="1434520706375" duration="721000" />
+      <workItem from="1434525988156" duration="20000" />
+      <workItem from="1434689612161" duration="197000" />
+      <workItem from="1434689827849" duration="32000" />
+      <workItem from="1435551940171" duration="1844000" />
+      <workItem from="1435554205484" duration="22000" />
+      <workItem from="1435806338968" duration="1122000" />
+      <workItem from="1435817539593" duration="26000" />
+      <workItem from="1435817724984" duration="1087000" />
+      <workItem from="1435824794750" duration="649000" />
+      <workItem from="1435908120372" duration="134000" />
+      <workItem from="1436874889796" duration="3719000" />
+      <workItem from="1436922015156" duration="88000" />
+      <workItem from="1436945772078" duration="3101000" />
+      <workItem from="1436949966937" duration="705000" />
+      <workItem from="1439451278890" duration="104000" />
+      <workItem from="1439697675437" duration="551000" />
+      <workItem from="1439781430437" duration="33000" />
+      <workItem from="1449718937953" duration="12155000" />
+      <workItem from="1449735163562" duration="6990000" />
+      <workItem from="1449798065312" duration="2423000" />
+      <workItem from="1449818304937" duration="3609000" />
+      <workItem from="1449823175753" duration="1538000" />
+      <workItem from="1449825915237" duration="2233000" />
+      <workItem from="1450053675000" duration="2267000" />
+      <workItem from="1450079905265" duration="1803000" />
+      <workItem from="1450086160765" duration="837000" />
+      <workItem from="1450154515578" duration="394000" />
+      <workItem from="1450155315265" duration="520000" />
+      <workItem from="1450156934375" duration="280000" />
+      <workItem from="1450157654953" duration="1307000" />
+      <workItem from="1450234794375" duration="1112000" />
+      <workItem from="1450242631812" duration="1123000" />
+      <workItem from="1450254897937" duration="1956000" />
+      <workItem from="1450314406093" duration="685000" />
+      <workItem from="1450320641843" duration="644000" />
+      <workItem from="1450336435734" duration="1720000" />
+      <workItem from="1450338798765" duration="1935000" />
+      <workItem from="1450341993312" duration="2142000" />
+      <workItem from="1450400852343" duration="4422000" />
+      <workItem from="1450408301750" duration="74000" />
+      <workItem from="1450421421562" duration="42000" />
+      <workItem from="1450429794460" duration="75000" />
+      <workItem from="1450698312328" duration="192000" />
+      <workItem from="1450949438687" duration="780000" />
+      <workItem from="1451005826375" duration="1283000" />
+      <workItem from="1451009983593" duration="721000" />
+      <workItem from="1451010921312" duration="5014000" />
+      <workItem from="1451020589906" duration="981000" />
+      <workItem from="1451029242000" duration="380000" />
+      <workItem from="1451266514468" duration="21000" />
+      <workItem from="1456128387656" duration="21000" />
+      <workItem from="1456129044578" duration="938000" />
+      <workItem from="1456191296781" duration="1786000" />
+      <workItem from="1456195446609" duration="128000" />
+      <workItem from="1456206422171" duration="74000" />
+      <workItem from="1456375826328" duration="239000" />
+      <workItem from="1456379804343" duration="4502000" />
+      <workItem from="1456389089500" duration="34000" />
+      <workItem from="1456882959562" duration="1750000" />
+      <workItem from="1456886619562" duration="58000" />
+      <workItem from="1456969725343" duration="657000" />
+      <workItem from="1457080424250" duration="520000" />
+      <workItem from="1457333042789" duration="547000" />
+      <workItem from="1457685760359" duration="55000" />
+      <workItem from="1458043170437" duration="723000" />
+      <workItem from="1458540049697" duration="786000" />
+      <workItem from="1458784164765" duration="217000" />
+      <workItem from="1458813571875" duration="372000" />
+      <workItem from="1459131069171" duration="701000" />
+      <workItem from="1459154722887" duration="678000" />
+      <workItem from="1459328229984" duration="2258000" />
+      <workItem from="1459904842515" duration="54000" />
+      <workItem from="1460350859796" duration="1640000" />
+      <workItem from="1460368926218" duration="2463000" />
+      <workItem from="1460375176046" duration="84000" />
+      <workItem from="1460596926968" duration="1569000" />
+      <workItem from="1460599376578" duration="163000" />
+      <workItem from="1461292919390" duration="1892000" />
+      <workItem from="1461586125593" duration="474000" />
+      <workItem from="1461589582718" duration="1985000" />
+      <workItem from="1461646966253" duration="1538000" />
+      <workItem from="1461723963112" duration="594000" />
+      <workItem from="1462955044312" duration="6418000" />
+      <workItem from="1463144065281" duration="609000" />
+      <workItem from="1463386852703" duration="485000" />
+      <workItem from="1463389985031" duration="30000" />
+      <workItem from="1463728011562" duration="1485000" />
+      <workItem from="1464937335027" duration="3346000" />
+      <workItem from="1464945938184" duration="29000" />
+      <workItem from="1468306884426" duration="2976000" />
+      <workItem from="1468317030754" duration="1286000" />
+      <workItem from="1468378233765" duration="1095000" />
+      <workItem from="1468404104578" duration="805000" />
+      <workItem from="1468459868140" duration="203000" />
+      <workItem from="1468464308609" duration="8000" />
+      <workItem from="1468464381656" duration="3000" />
+      <workItem from="1469586996171" duration="1616000" />
+      <workItem from="1474940963562" duration="329000" />
+      <workItem from="1480053817156" duration="3490000" />
+      <workItem from="1480295965046" duration="648000" />
+      <workItem from="1480318519453" duration="1864000" />
+      <workItem from="1483533242188" duration="308000" />
+      <workItem from="1483578626005" duration="431000" />
+      <workItem from="1483583760334" duration="476000" />
+      <workItem from="1483585096563" duration="1672000" />
+      <workItem from="1483685446556" duration="8572000" />
+      <workItem from="1483698449979" duration="33000" />
+      <workItem from="1483838029482" duration="2109000" />
+      <workItem from="1483923387660" duration="25079000" />
+      <workItem from="1484010013621" duration="15061000" />
+      <workItem from="1484097372600" duration="1645000" />
+      <workItem from="1484101856828" duration="1593000" />
+      <workItem from="1484104861239" duration="4284000" />
+      <workItem from="1484112839572" duration="296000" />
+      <workItem from="1484113351795" duration="268000" />
+      <workItem from="1484115527120" duration="906000" />
+      <workItem from="1484123838850" duration="117000" />
+      <workItem from="1484125938639" duration="24000" />
+      <workItem from="1484126069412" duration="12000" />
+      <workItem from="1484127352984" duration="5509000" />
+      <workItem from="1484139815457" duration="1887000" />
+      <workItem from="1484184374518" duration="2689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1011824000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6252101" sideWeight="0.3957704" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49579832" sideWeight="0.67338216" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43361345" sideWeight="0.36555892" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26555386" sideWeight="0.52657" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2276867" sideWeight="0.23672055" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3184569" sideWeight="0.7769517" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.65525115" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34214503" sideWeight="0.47342995" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5126051" sideWeight="0.6042296" order="15" side_tool="false" content_ui="tabs" x="21" y="311" width="1638" height="398" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.66519827" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5092437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49579832" sideWeight="0.67338216" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.66519827" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3184569" sideWeight="0.7769517" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969324" sideWeight="0.65525115" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.768" sideWeight="0.6042296" order="15" side_tool="false" content_ui="tabs" x="21" y="311" width="1638" height="398" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62628573" sideWeight="0.3957704" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66742855" sideWeight="0.36555892" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33394384" sideWeight="0.52657" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2276867" sideWeight="0.23672055" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51085716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34214503" sideWeight="0.47342995" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/call_police/EmailAction.java</url>
+          <line>233</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/call_police/EmailAction.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/call_police/EmailAction.java</url>
+          <line>273</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/set/AdvancedAction.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/set/DataMakerAction.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/set/ServerSourceNetsAction.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM2Utils.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckAction.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="210" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/Cipher.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM2Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM3.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM3Digest.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM4.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM4_Context.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM4Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm2/SMS4.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm2/testMain.java" />
+    <entry file="jar://$PROJECT_DIR$/../sharelib/bouncycastle/bcprov-jdk15on-150.jar!/org/bouncycastle/jcajce/provider/asymmetric/x509/X509CertificateObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="113" column="26" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/security/x509/X509CertImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="314" column="63" selection-start-line="314" selection-start-column="55" selection-end-line="314" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/security/cert/X509Certificate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="148" column="25" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/security/cert/Certificate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../sharelib/bouncycastle/bcprov-jdk15on-150.jar!/org/bouncycastle/jce/provider/X509CertificateObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="545" column="39" selection-start-line="545" selection-start-column="39" selection-end-line="545" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../sharelib/bouncycastle/bcprov-jdk15on-150.jar!/org/bouncycastle/jce/provider/X509SignatureUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/security/SignatureSpi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/security/Signature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="713" column="22" selection-start-line="713" selection-start-column="22" selection-end-line="713" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../sharelib/bouncycastle/bcprov-jdk15on-150.jar!/org/bouncycastle/asn1/ASN1Sequence.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="125" column="24" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../sharelib/bouncycastle/bcprov-jdk15on-150.jar!/org/bouncycastle/asn1/DERBitString.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm2/SM3Digest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8531">
+          <caret line="490" column="51" selection-start-line="490" selection-start-column="47" selection-end-line="490" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../sharelib/bouncycastle/bcprov-jdk15on-150.jar!/org/bouncycastle/asn1/x509/TBSCertificateStructure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm2/SM2.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/SM2.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/sm/HexUtil.java" />
+    <entry file="jar://$PROJECT_DIR$/../sharelib/bouncycastle/bcprov-jdk15on-150.jar!/org/bouncycastle/asn1/x509/SubjectPublicKeyInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/strategy/ClientStrategyAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/strategy/StrategyXMLUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1600">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/threeyards/DoTerminalThreeYards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2949">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/upload/ClientViewUploadAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/upload/ClientGpsUploadAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="110" column="88" selection-start-line="110" selection-start-column="88" selection-end-line="110" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/UpgradeVersionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/control/ControlAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/utils/ByteFileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/online/DoTermAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/online/DoTermOnLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="324" column="4" selection-start-line="324" selection-start-column="4" selection-end-line="324" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="333" column="19" selection-start-line="333" selection-start-column="19" selection-end-line="333" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509UserConfigUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckCRLUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckUploadGpsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/VPNConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="236" column="63" selection-start-line="236" selection-start-column="63" selection-end-line="236" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/utils/StringContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/DirectoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/config/X509ShellUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="488" column="31" selection-start-line="488" selection-start-column="26" selection-end-line="488" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../sharelib/bouncycastle/bcprov-jdk15on-150.jar!/org/bouncycastle/asn1/x509/X509CertificateStructure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CertificateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/encrypt/EncryptUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/hzih/sslvpn/web/action/sslvpn/client/check/CheckAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2912#3020#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>sslvpn_strategy:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2845138" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>appserver (sslvpn_strategy)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2845138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>servlet</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2845138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2845138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate|sslvpn_strategy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2845138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-compress-1.8.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2845138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
